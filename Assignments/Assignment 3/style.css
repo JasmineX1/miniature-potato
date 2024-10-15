@@ -1,0 +1,148 @@
+body {
+    background-color: #126cc6; /* Light blue-grey background */
+    font-family: 'Courier New', Courier, monospace; /* Elegant serif font for text */
+    margin: 20px;
+    line-height: 1.8;
+    color: #ffffff; /* Dark grey for readability */
+}
+
+/* Two-column container for bilingual layout */
+.bilingual-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 40px; /* Gap between columns */
+    margin: 40px auto;
+    max-width: 1200px; /* Max width for content */
+}
+
+/* Column Styling */
+.column {
+    padding: 20px;
+    background-color: #1978c2; /* Light blue background for columns */
+    border-radius: 10px; /* Soft, rounded corners */
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #ffffff; /* Dark text for readability */
+}
+
+/* Styling for images */
+img {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px; /* Rounded image corners */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 2px solid #124278; /* Medium blue border */
+}
+
+.caption {
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #6d7f91; /* Muted blue-grey for captions */
+    font-style: italic;
+}
+
+/* Headings */
+h1 {
+    grid-column: 1 / span 2; /* Span across both columns */
+    text-align: center;
+    font-size: 42pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff; /* Dark blue for headline */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccff00; /* Medium blue divider */
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif; /* Elegant serif for titles */
+}
+
+h2 {
+    grid-column: 1 / span 2;
+    text-align: center;
+    font-size: 24pt;
+    font-style: italic;
+    color: #ffffff; /* Medium blue for secondary headings */
+    margin-bottom: 20px;
+    font-family: 'Lora', serif; /* Elegant serif for headings */
+}
+
+h6 {
+    grid-column: 1 / span 2;
+    text-align: right;
+    font-style: italic;
+    font-size: 14pt;
+    margin-top: 30px;
+    color: #adbdcd; /* Muted blue-grey for subtle text */
+}
+
+/* Paragraphs */
+p {
+    text-align: justify;
+    font-size: 16pt; /* Slightly larger font for readability */
+    margin-bottom: 20px;
+    color: #ffffff; /* Dark blue text */
+    font-family:Georgia, 'Times New Roman', Times, serif; /* Clean serif font for body text */
+    line-height: 1.8; /* Increase line height for better readability */
+}
+
+/* Blockquote style */
+blockquote {
+    font-family: 'Georgia', serif;
+    font-size: 18pt;
+    font-style: italic;
+    color: #dce2e8; /* Dark blue for blockquotes */
+    padding: 10px 20px;
+    margin: 30px 0;
+    border-left: 4px solid #4a90e2; /* Medium blue bar on the left */
+    background-color: #e1ecf4; /* Lighter blue background */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+body {
+    background-color: #153e67; /* Light blue-grey background */
+    font-family: 'Merriweather', serif; /* Elegant serif font for text */
+    margin: 20px;
+    line-height: 1.8;
+    color: #ffffff; /* Dark grey for readability */
+}
+
+/* Two-column container for bilingual layout */
+.bilingual-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 40px; /* Gap between columns */
+    margin: 40px auto;
+    max-width: 1200px; /* Max width for content */
+}
+
+/* Column Styling */
+.column {
+    padding: 20px;
+    background-color: #58a6e2; /* Light blue background for columns */
+    border-radius: 10px; /* Soft, rounded corners */
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #333; /* Dark text for readability */
+}
+
+/* Styling for images within the content */
+img {
+    width: 100%;
+    max-width: 500px; /* Default max width for inline images */
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px; /* Rounded image corners */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 2px solid #4a90e2; /* Medium blue border */
+}
+
+/* Full-width image but within text frame size */
+img.text-frame-width {
+    width: 100%; /* Full width within container */
+    max-width: 1200px; /* Matches the text container width */
+    margin: 0 auto; /* Centered image */
+    border-radius: 8px; /* Rounded image corners */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 2px solid #4a90e2; /* Medium blue border */
+}
