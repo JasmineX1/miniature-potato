@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7cdd4; /* Light pink */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #a9232e; /* Dark red */
+    margin-top: 20px;
+}
+
+/* Section Headings */
+h3 {
+    color: #a9232e; /* Dark red */
+    margin-left: 20px;
+}
+
+/* Navigation Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Links */
+a {
+    color: #4e241e; /* Deep red */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #165037; /* Dark green */
+    text-decoration: underline;
+}
+
+/* Layout and Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Button Styling (if needed) */
+button {
+    background-color: #a9232e; /* Dark red */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #165037; /* Dark green */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
