@@ -99,7 +99,7 @@ const posters = [
     { src: "poster/painted_skin_画皮.jpg", genre: "fantasy", year: 2008, cast: "Zhao Wei, Zhou Xun, Chen Kun" },
     { src: "poster/Léon_The_Professional.jpg", genre: "action", year: 1994, cast: "Jean Reno, Gary Oldman, Natalie Portman" },
     { src: "poster/life_is_beautiful_La_vita_e_bella.jpg", genre: "drama", year: 1997, cast: "Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini" },
-    { src: "poster/Jaws.jpg", genre: "action", year: 1975, cast: "Roy Scheider, Robert Shaw, Richard Dreyfuss" },
+    { src: "poster/jaws.jpg", genre: "action", year: 1975, cast: "Roy Scheider, Robert Shaw, Richard Dreyfuss" },
     { src: "poster/Alien.jpg", genre: "sci-fi", year: 1979, cast: "Sigourney Weaver, Tom Skerritt, John Hurt" },
     { src: "poster/Blade_runner.jpg", genre: "sci-fi", year: 1982, cast: "Harrison Ford, Rutger Hauer, Sean Young" },
     { src: "poster/the_grand_budapest_hotel.jpg", genre: "comedy", year: 2004, cast: "Ralph Fiennes, Tony Revolori, F. Murray Abraham" },
