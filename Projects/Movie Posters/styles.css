@@ -1,0 +1,170 @@
+/* General body styling */
+body {
+    font-family: monospace;
+    margin: 0;
+    background: #f1efec;
+}
+
+/* Header Styling */
+header {
+    color: rgb(0, 17, 255);
+    font-size: 8pt;
+    padding: 3rem;
+    text-align: center;
+}
+
+/* Filters Section */
+#filters {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    gap: 20px; /* Spacing between filter items */
+    position: fixed; /* Keep it fixed on the screen */
+    top: 120px; /* Adjust the distance from the top of the page */
+    left: 50%; /* Position it horizontally relative to the page */
+    transform: translateX(-50%); /* Shift it left by 50% of its width to center it */
+    background: #f1efec; /* Semi-transparent background */
+    color: rgb(0, 17, 255); /* Text color */
+    padding: 10px 20px; /* Add some padding for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 0.9rem; /* Adjust text size */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    white-space: nowrap; /* Prevent text from wrapping */
+    max-width: 90vw; /* Ensure the filter container doesn’t exceed screen width */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+}
+
+
+#filters .filter-item {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+#filters .filter-item:hover {
+    opacity: 0.4;
+}
+
+#filters .filter-item.active {
+    font-weight: bold;
+    color: #000b54;
+}
+
+/* Main Grid Container */
+#poster-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* Exactly 4 columns */
+    gap: 50px;
+    padding: 100px 20px;
+}
+
+/* Individual Poster Styling */
+.poster {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover Effect: Slight zoom-in */
+.poster:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add a deeper shadow */
+}
+
+/* Modal Styling */
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#modal.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/* Default font for the entire modal */
+    font-size: 1rem; /* Base font size */
+    line-height: 1.5; /* Improve readability */
+    color: #ffffff; /* Default text color */
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    max-width: 800px;
+    width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative; /* Needed for absolute positioning of the close button */
+}
+
+/* Title Font */
+.modal-info h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Change title font to a serif font */
+    font-size: 5rem; /* Increase title size */
+    font-weight: bold; /* Make it bold */
+    color: #ffffff; /* Darker color for emphasis */
+    margin-bottom: 10px; /* Add some space below the title */
+}
+
+/* Details Font (Year, Genre, Cast) */
+.modal-info p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Use a sans-serif font for details */
+    font-size: 1rem; /* Slightly smaller font size */
+    color: #ffffff; /* Subtle color for detail text */
+    margin: 5px 0; /* Add spacing between paragraphs */
+}
+
+.modal-poster {
+    width: 40%;
+    background-size: contain; /* Ensure the entire poster is visible */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center;
+    border-radius: 10px;
+    aspect-ratio: 2 / 3; /* Keep the poster proportions */
+}
+
+.modal-info {
+    width: 60%;
+}
+
+.modal-info h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.modal-info p {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Move the close button to the top-right of the modal */
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    color: rgb(0, 17, 255);
+    size: 1rem;
+    bottom: 100px;
+}
