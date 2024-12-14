@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Poster Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Movie Posters Collection</h1>
+    </header>
+
+    <!-- Filters Section -->
+    <div id="filters">
+        <!-- Year Filters -->
+        <span class="filter-item active" data-filter="all">All</span>
+        <span class="filter-item" data-filter="before_1980s">Before 1980s</span>
+        <span class="filter-item" data-filter="1980s_to_2000s">1980s - 2000s</span>
+        <span class="filter-item" data-filter="2000s_to_2020s">2000s - 2020s</span>
+    
+        <!-- Genre Filters -->
+        <span class="filter-item" data-filter="action">Action</span>
+        <span class="filter-item" data-filter="drama">Drama</span>
+        <span class="filter-item" data-filter="comedy">Comedy</span>
+        <span class="filter-item" data-filter="sci-fi">Sci-Fi</span>
+        <span class="filter-item" data-filter="other">Other Genres</span>
+    
+    </div>
+    
+
+    <!-- Main Content Section -->
+    <main id="poster-grid">
+        <!-- Posters will be dynamically added via JavaScript -->
+    </main>
+
+    <!-- Modal Section -->
+    <div id="modal" class="hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-poster"></div>
+            <div class="modal-info">
+                <h2 id="modal-title"></h2>
+                <p id="modal-year"></p>
+                <p id="modal-genre"></p>
+                <p id="modal-cast"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h6>Runqing (Jasmine) Xi </h6>
+    </footer>
+
+    <footer>
+        <h6>2024 Movie Poster Collection</h6>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="scripts.js"></script>
+</body>
+</html>
