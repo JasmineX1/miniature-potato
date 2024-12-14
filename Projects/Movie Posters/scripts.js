@@ -97,7 +97,7 @@ const posters = [
     { src: "poster/Scent_of_a_Woman.jpg", genre: "epic", year: 1992, cast: "Al Pacino, Chris O'Donnell, James Rebhornu" },
     { src: "poster/Love_Actually.jpg", genre: "comedy", year: 2003, cast: "Hugh Grant, Martine McCutcheon, Liam Neeson" },
     { src: "poster/painted_skin_画皮.jpg", genre: "fantasy", year: 2008, cast: "Zhao Wei, Zhou Xun, Chen Kun" },
-    { src: "poster/leon_the_professional.jpg", genre: "action", year: 1994, cast: "Jean Reno, Gary Oldman, Natalie Portman" },
+    { src: "poster/leon_:the_professional.jpg", genre: "action", year: 1994, cast: "Jean Reno, Gary Oldman, Natalie Portman" },
     { src: "poster/life_is_beautiful_La_vita_e_bella.jpg", genre: "drama", year: 1997, cast: "Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini" },
     { src: "poster/jaws.jpg", genre: "action", year: 1975, cast: "Roy Scheider, Robert Shaw, Richard Dreyfuss" },
     { src: "poster/Alien.jpg", genre: "sci-fi", year: 1979, cast: "Sigourney Weaver, Tom Skerritt, John Hurt" },
